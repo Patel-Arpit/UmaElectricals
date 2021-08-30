@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.field_error{
+  color: red;
+  font-style: italic;
+}
+
+.accordion .accordion__hide {
+  background: #f4f4f4;
+  height: 65px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.order_btn{
+  width: 100%;
+  font-size: 25px;
+
+}
+.email_verify_otp{
+  display: none;
+}
+#email_otp_result{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-size: 20px;
+  font-size: bold;
+  color: green;
+}
+.submit_otp{
+  margin-top: 25px;
+}
+.forgot_password{
+  margin-top: 25px;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.verify_otp, #reset_password, #update_password, .btn_send_otp{
+  display: none;
+}
+.login_btns{
+  height: auto;
+}
+.old__prize{
+  text-decoration-line: line-through;
+}
+.discount{
+  font-style: italic;
+  color: green;
+}
